@@ -1,3 +1,3 @@
 # Assignments
 First week Assignments
-I successfuly followed till now 
+I successfuly followed till now
