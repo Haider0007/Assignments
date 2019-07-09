@@ -22,6 +22,7 @@ class MyClaculator
 end 
 
 puts "Haider"
+puts "Ohoooo"
 class Person
   def name=(nam)
     @name=nam;
