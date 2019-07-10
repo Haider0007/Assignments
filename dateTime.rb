@@ -16,4 +16,5 @@ puts time.utc
 
 time2 = Time.new
 values = time2.to_a
+
 puts "Time via Values:"<<Time.utc(*values).to_s
