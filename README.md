@@ -1,2 +1,0 @@
-# Assignments
-First week Assignments
