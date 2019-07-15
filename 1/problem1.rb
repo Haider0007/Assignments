@@ -1,35 +1,24 @@
 =begin
 
 Reader:
-    It is a kind of method used to read value of some attribute
-    of a class.
-    Sometimes in case of encapsulation we secure our attributes from
-    outer world and those can't be accessible freely.
-    In such cases we write readers which allow any user to access
-    to that attribute. 
-    THis way only gives opportunities to admins to provide data only to 
-    authentic users.
-
+    It is way of declaring an attribute in such a way that 
+    we can accesss and read its value without even declaring some extra 
+    getter method...
+    But setting value of that attribute will only happen by using some extra method in this scenario.
+    its representation is : attr_reader :name
 For Example.....
 =end
  
 
 class Person
+  attr_reader :name
   def initialize(name)
     @name=name
   end
-#Reader 
-#----------------
-  
-  def getName
-    @name
-  end
-
-#----------------
 
 end
 
 
 obj=Person.new("Haider")
 
-puts "My name is #{obj.getName}"
+puts "My name is #{obj.name}"
