@@ -11,7 +11,7 @@ class Person
   end
 public
   def Hair
-    puts "#{@name} has #{hair} Hair."
+    puts "Parent has #{hair} Hair."
   end
 end
 
@@ -21,10 +21,7 @@ class Male < Person
     super name,age,hair
     @gender= "Male"
   end
-public
-  def Hair
-    super
-  end
+
 end
 
 class Female < Person
@@ -34,10 +31,7 @@ class Female < Person
     super name,age,hair
     @gender= "Female"
   end 
-  public 
-    def Hair
-      super
-    end
+  
   
 end
 
