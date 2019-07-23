@@ -1,4 +1,8 @@
-puts "Please Enter your age:"
+def adult?(age)
+  age>=18
+end
+
+puts 'Please Enter your age:'
 age=Integer(gets.chomp!)
 
-puts age>=18? "You are adult." : "You are not adult"
+puts adult?(age)? 'You are adult.' : 'You are not adult'
