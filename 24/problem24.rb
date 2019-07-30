@@ -7,5 +7,5 @@ to_change=gets.chomp!
 puts "Enter character to replace with:"
 change_with=gets.chomp!
 
-str=str.gsub(to_change,change_with)!
+str.gsub(to_change,change_with)!
 puts str
